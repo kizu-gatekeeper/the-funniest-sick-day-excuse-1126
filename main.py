@@ -1,6 +1,7 @@
 """Entry for make.fun bounty: The Funniest Sick-Day Excuse.
 
 Writes a single line (at most 200 characters) to $MAKEFUN_OUTPUT_DIR/entry.txt.
+The line is written exactly as composed, with no trailing newline.
 """
 
 import os
